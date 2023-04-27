@@ -37,8 +37,16 @@ black_hole_full(234,"Earth","rusnia","time",6776,
                 name="Gleb", planet="Earth",number=5)
 
 
+lst=[2,3,4]
+dict={"n":1, "b":2, "n1":3}
+def fun(var_1,var_2,var_3):
+    print(var_1, var_2, var_3)
+fun(*lst)
 
 
+def fun_dict(n,b,n1):
+    print(1, 2, 3)
+fun_dict(**dict)
 
 
 
