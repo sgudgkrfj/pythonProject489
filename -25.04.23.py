@@ -26,9 +26,19 @@ def black_hole_named(**kwargs):
 black_hole_named(name="Gleb", planet="Earth",number=5)
 
 
+def black_hole_full(*args, **kwargs):
+    if not args: #для перевірки наявності не іменованих аргументів
+        return 0
+    for argument in args:
+        print(argument)
+    for key, value in kwargs.items():
+        print(key,value)
+black_hole_full(234,"Earth","rusnia","time",6776,
+                name="Gleb", planet="Earth",number=5)
 
 
-black_hole_full(name="Gleb", planet="Earth",number=5)
+
+
 
 
 
