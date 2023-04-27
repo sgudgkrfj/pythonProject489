@@ -24,3 +24,14 @@ def black_hole_named(**kwargs):
     for key, value in kwargs.items():
         print(key,value)
 black_hole_named(name="Gleb", planet="Earth",number=5)
+
+
+
+
+black_hole_full(name="Gleb", planet="Earth",number=5)
+
+
+
+
+
+
